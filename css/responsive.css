@@ -1,0 +1,63 @@
+/* BOOTSTRAP ALL BUT XL */
+@media all and (min-width: 0px) and (max-width: 991px) {
+	body {
+		min-height: 100vh;
+	}
+
+	body > * {
+		display: none;
+	}
+
+	body::after {
+		content: "El juego no funciona en celular, tableta o ventanas de navegador pequeñas. Por favor utilice una computadora con un navegador usando toda la pantalla.";
+		color: #fff;
+		width: 50%;
+		display: flex;
+		margin: auto;
+		height: 99vh;
+		justify-content: center;
+		align-items: center;
+		font-size: 20px;
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+	}
+}
+
+/* BOOTSTRAP XS */
+@media all and (min-width: 0px) and (max-width: 767px) {
+
+}
+
+/* BOOTSTRAP SM */
+@media all and (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* BOOTSTAP MD */
+@media all and (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+
+/* ============= EXTRA QUERIES ============= */
+
+/* 0-320 */
+@media all and (min-width: 0px) and (max-width: 320px) {
+
+}
+
+/* 0-480 */
+@media all and (min-width: 0px) and (max-width: 480px) {
+
+}
+
+/* 320-480 */
+@media all and (min-width: 320px) and (max-width: 480px) {
+
+}
+
+/* 480-767 */
+@media all and (min-width: 480px) and (max-width: 767px) {
+
+}
+
+

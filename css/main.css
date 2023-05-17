@@ -1,0 +1,312 @@
+@font-face {
+	font-family: 'mario';
+	src: url('../fonts/SuperMario.eot');
+	src: url('../fonts/SuperMario.eot') format('embedded-opentype'),
+	url('../fonts/SuperMario.woff2') format('woff2'),
+	url('../fonts/SuperMario.woff') format('woff'),
+	url('../fonts/SuperMario.ttf') format('truetype'),
+	url('../fonts/SuperMario.svg#SuperMario') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+div a:focus {
+	outline: none;
+}
+
+div a:hover, div a:focus, div a:active {
+	text-decoration: none;
+}
+
+body {
+	font-family: 'mario', sans-serif;
+}
+
+ul {
+	padding: 0;
+}
+
+img {
+	max-width: 100%;
+}
+
+.float {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.blkCenter {
+	display: block;
+	margin: auto;
+}
+
+.nopad {
+	padding: 0;
+}
+
+.nopadL {
+	padding-left: 0;
+}
+
+.nopadR {
+	padding-right: 0;
+}
+
+.padFix {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.padFixL {
+	padding-left: 15px;
+}
+
+.padFixR {
+	padding-right: 15px;
+}
+
+.padTop {
+	padding-top: 60px;
+}
+
+.padBot {
+	padding-bottom: 60px;
+}
+
+.mtop {
+	margin-top: 30px;
+}
+
+.mbot {
+	margin-bottom: 30px;
+}
+
+.mtop30 {
+	margin-top: 30px;
+}
+
+.mbot30 {
+	margin-bottom: 30px;
+}
+
+.mtop60 {
+	margin-top: 60px;
+}
+
+.mbot60 {
+	margin-bottom: 60px;
+}
+
+.mtop90 {
+	margin-top: 90px;
+}
+
+.mbot90 {
+	margin-bottom: 90px;
+}
+
+.full, .w100 {
+	width: 100%;
+}
+
+.half, .w50 {
+	width: 50%;
+}
+
+.fifth, .w20 {
+	width: 20%;
+}
+
+.sixth, .w16 {
+	width: 16.66%;
+}
+
+.tenth, .w10 {
+	width: 10%;
+}
+
+.quarter, .w25 {
+	width: 25%;
+}
+
+.third, .w33 {
+	width: 33.33%;
+}
+
+.two-thirds, .w66 {
+	width: 66.66%;
+}
+
+.three-quarters, .w75 {
+	width: 75%;
+}
+
+.almost-full, .w90 {
+	width: 90%;
+}
+
+.w40 {
+	width: 40%;
+}
+
+.w30 {
+	width: 30%;
+}
+
+.rel {
+	position: relative;
+}
+
+.childCenter {
+	text-align: center;
+}
+
+.childLeft {
+	text-align: left;
+}
+
+.childRight {
+	text-align: right;
+}
+
+/* MAIN */
+
+body {
+	background-color: #000;
+	background-image: linear-gradient(45deg, #400, #040, #004);
+}
+
+#wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+#main-image {
+	border: 15px ridge #f00;
+	border-radius: 30px;
+	cursor: pointer;
+	object-fit: none;
+}
+
+h1 {
+	background-color: #fff4;
+	border: 3px ridge #f80;
+	border-radius: 30px;
+	color: #fffa;
+	-webkit-text-stroke: 2px #000;
+	font-size: 72px;
+	padding: 0 30px;
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: 0 6px 0 #000;
+}
+
+span.rojo {
+	color: #e71e07;
+}
+span.amarillo {
+	color: #fcd000;
+}
+span.verde {
+	color: #42b132;
+}
+span.azul {
+	color: #009cda;
+}
+
+#pregunta-box {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	bottom: 50%;
+	right: 50%;
+	overflow: hidden;
+	background-image: linear-gradient(#026cfb88, #a9eafd88);
+	font-size: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 1050ms ease;
+	text-align: center;
+}
+
+#pregunta-box.active {
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+
+}
+
+#pregunta-box > div {
+	border: 5px ridge #f00;
+	border-radius: 15px;
+	background-image: linear-gradient(#026cfbdd, #a9eafddd);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-shrink: 0;
+	padding: 30px;
+	position: relative;
+	width: 80vw;
+	height: 80vh;
+}
+
+#pregunta-box img {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 0;
+}
+
+#pregunta-box p {
+	color: #fff;
+	text-shadow: 0 5px 2px #000, 2px 0 5px #000, -2px 0 5px #000;
+	margin: 0;
+	position: relative;
+	z-index: 1;
+}
+
+#pregunta-box i {
+	background: #fff8;
+	border-radius: 500px;
+	color: #000;
+	cursor: pointer;
+	width: 70px;
+	height: 70px;
+	padding: 10px;
+	text-shadow: 0 2px 0 #fff;
+}
+
+#click-next {
+}
+
+#respuesta {
+	opacity: 0;
+	transition: 1500ms ease;
+}
+
+#click-close {
+	display: none;
+	opacity: 0;
+	position: absolute;
+	bottom: 15px;
+	right: 15px;
+	transition: 500ms ease;
+	z-index: 3;
+}
+
+#preload {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 1px;
+	width: 1px;
+	opacity: 0.1;
+	background-image: url("../images/nabbit.png"), url("../images/question.png"), url("../images/koopa.png"), url("../images/coins.png"), url("../images/luigi.png"), url("../images/lakitul.png"), url("../images/goomba.png"), url("../images/bobombs.png"), url("../images/muncher.png"), url("../images/piranha.png"), url("../images/peachette.png"), url("../images/mario.png") ;
+}

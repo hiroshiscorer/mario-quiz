@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz de Unidades de Indagación</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/main.css?v=1.0.1" />
+    <link rel="stylesheet" href="css/responsive.css?v=1.0.1" />
+    <link rel="stylesheet" href="css/animate.css?v=1.0.1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <script src="js/jquery-3.1.1.min.js"></script>
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#ff0000">
+    <meta name="msapplication-TileColor" content="#ff0000">
+    <meta name="theme-color" content="#ff0000">
+
+
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col" id="wrapper">
+            <h1>
+                <span class="azul">Q</span><span class="amarillo">u</span><span class="rojo">i</span><span class="verde">z</span>
+
+                <span class="amarillo">d</span><span class="rojo">e</span>
+
+                <span class="verde">U</span><span class="amarillo">n</span><span class="azul">i</span><span class="verde">d</span><span class="azul">a</span><span class="amarillo">d</span><span class="rojo">e</span><span class="verde">s</span>
+
+                <span class="amarillo">d</span><span class="rojo">e</span>
+
+                <span class="azul">I</span><span class="amarillo">n</span><span class="rojo">d</span><span class="verde">a</span><span class="amarillo">g</span><span class="azul">a</span><span class="verde">c</span><span class="azul">i</span><span class="amarillo">ó</span><span class="rojo">n</span>
+            </h1>
+        <img id="main-image" src="images/mario-field.png" alt="Mario Questionnaire" usemap="#mario-map">
+        </div>
+    </div>
+</div>
+
+<div id="pregunta-box">
+    <div>
+        <img src="images/mario.png" alt="" id="pregunta-imagen">
+        <p id="pregunta">Aquí va a ir una pregunta muy bonita</p>
+        <i class="fa fa-arrow-circle-down animated infinite slow-eight bounce-pause" id="click-next"></i>
+        <p id="respuesta" class="animated infinite rubberBand-pause slow-four d-inline-block">Acá la respuesta correcta</p>
+        <i class="fa fa-arrow-circle-right" id="click-close"></i>
+    </div>
+</div>
+
+<map name="mario-map">
+    <area target="" alt="Nabbit" title="Nabbit" href="javascript:launch('nabbit')" coords="99,343,111,343,121,343,138,323,142,309,151,291,149,282,138,264,122,243,108,235,94,235,76,240,61,238,60,259,49,270,32,287,31,303,35,324,55,335,73,333" shape="poly">
+    <area target="" alt="Question" title="Question" href="javascript:launch('question')" coords="96,98,63,127,65,229,101,231,128,226,143,194,150,145,148,94" shape="poly">
+    <area target="" alt="Koopa" title="Koopa" href="javascript:launch('koopa')" coords="160,107,164,137,172,173,188,203,239,203,262,163,264,126,253,102,218,82,184,86" shape="poly">
+    <area target="" alt="Coins" title="Coins" href="javascript:launch('coins')" coords="145,223,146,249,152,264,294,265,301,214,247,208,156,208" shape="poly">
+    <area target="" alt="Luigi" title="Luigi" href="javascript:launch('luigi')" coords="146,332,118,371,130,408,143,432,178,446,215,443,244,400,277,392,370,393,362,346,289,343,257,317,230,308,223,266,155,267" shape="poly">
+    <area target="" alt="Lakitul" title="Lakitul" href="javascript:launch('lakitul')" coords="361,34,351,62,344,91,342,130,363,153,401,162,435,147,453,114,451,75,426,46,388,18" shape="poly">
+    <area target="" alt="Goomba" title="Goomba" href="javascript:launch('goomba')" coords="692,153,728,144,751,169,762,200,758,234,730,248,696,237,656,212,646,176,665,160" shape="poly">
+    <area target="" alt="Bob-ombs" title="Bob-ombs" href="javascript:launch('bobombs')" coords="648,54,647,114,659,159,736,140,794,139,827,100,820,37,730,30,681,35" shape="poly">
+    <area target="" alt="Muncher" title="Muncher" href="javascript:launch('muncher')" coords="696,351,831,352,839,392,833,414,710,418,690,387" shape="poly">
+    <area target="" alt="Piranha Plant" title="Piranha Plant" href="javascript:launch('piranha')" coords="583,211,539,253,542,354,547,438,561,485,673,486,688,377,682,263,634,209" shape="poly">
+    <area target="" alt="Peachette" title="Peachette" href="javascript:launch('peachette')" coords="623,62,579,25,505,45,500,130,495,189,575,198,627,187,641,168,655,160,642,111" shape="poly">
+    <area target="" alt="Mario" title="Mario" href="javascript:launch('mario')" coords="451,241,492,275,505,311,510,360,504,411,443,435,400,401,377,396,369,328,401,292,413,254" shape="poly">
+</map>
+<script src="js/main.js?v=1.0.1"></script>
+<aside id="preload"></aside>
+</body>
+</html>
