@@ -44,7 +44,7 @@ const qa = {
 		q: "CÓMO FUNCIONA EL MUNDO. En la actividad del recorrido al huerto de kinder, ¿Qué sentidos utilizaste?",
 		a: "Vista y olfato.",
 	},
-	mario: {
+	goomba: {
 		q: "HOW THE WORLD WORKS. Which are the three states of matter?",
 		a: "Solid, liquid and gas.",
 	},
@@ -72,7 +72,7 @@ const qa = {
 		q: "HOW WE ORGANIZE OURSELVES. What is the difference between buying and bartering?",
 		a: "When you buy you exchange for money, when you barter you exchange for other objects."
 	},
-	muncher: {
+	yoshi: {
 		q: "CÓMO NOS EXPRESAMOS. Menciona algunos medios de comunicación.",
 		a: "Televisión, radio, streaming."
 	},
@@ -80,7 +80,7 @@ const qa = {
 		q: "HOW WE EXPRESS OURSELVES.  Name a form of expression.",
 		a: "Painting, singing, dancing, writing, etc."
 	},
-	goomba: {
+	mario: {
 		q: "CÓMO COMPARTIMOS EL PLANETA. ¿Cuáles son las tres R?",
 		a: "Reducir, reutilizar y reciclar."
 	},
