@@ -40,13 +40,53 @@ function launch(who) {
 }
 
 const qa = {
+	edith: {
+		q: "CÓMO FUNCIONA EL MUNDO <br> En la actividad del recorrido al huerto, ¿qué sentidos utilizaste?",
+		a: "Olfato, vista y tacto."
+	},
+	bob: {
+		q: "HOW THE WORLD WORKS <br> Which are the three states of matter?",
+		a: "Solid, liquid and gas."
+	},
+	agnes: {
+		q: "WHERE WE ARE IN PLACE AND TIME <br> What can we learn from a family tree?",
+		a: "Family members and generations."
+	},
+	margo: {
+		q: "DÓNDE NOS ENCONTRAMOS EN EL TIEMPO Y EN EL ESPACIO <br> ¿Qué es una reliquia?",
+		a: "Objeto antiguo que tiene un valor sentimental para la familia."
+	},
+	stuart: {
+		q: "QUIÉNES SOMOS <br> Menciona tres continentes",
+		a: "América, Asia, África, Europa, Australia u Oceanía."
+	},
+	kevin: {
+		q: "WHO WE ARE <br> What is a community?",
+		a: "A group of people that work or live together."
+	},
+	nefario: {
+		q: "CÓMO NOS ORGANIZAMOS <br> ¿Cuáles son algunas formas de solucionar conflictos?",
+		a: "Dialogar, pensar antes de hablar, llegar a acuerdos, ser tolerante."
+	},
+	lucy: {
+		q: "CÓMO NOS ORGANIZAMOS <br> ¿Qué son los modales?",
+		a: "Son buenos comportamiento hacia las personas. Por ejemplo: decir \"por favor\", \"gracias\", saludar, etc."
+	},
+	dru: {
+		q: "HOW WE ORGANIZE OURSELVES <br> What is the difference between a rule and a law?",
+		a: "A law has a bigger consequence than a rule."
+	},
+	gru: {
+		q: "HOW WE ORGANIZE OURSELVES <br> What is the difference between buying and bartering?",
+		a: "In bartering you exchange for another object. When you buy you exchange for money."
+	},
 	nabbit: {
 		q: "CÓMO FUNCIONA EL MUNDO. En la actividad del recorrido al huerto de kinder, ¿Qué sentidos utilizaste?",
-		a: "Vista y olfato.",
+		a: "Vista y olfato."
 	},
 	goomba: {
 		q: "HOW THE WORLD WORKS. Which are the three states of matter?",
-		a: "Solid, liquid and gas.",
+		a: "Solid, liquid and gas."
 	},
 	luigi: {
 		q: "DÓNDE NOS ENCONTRAMOS EN EL TIEMPO Y EL ESPACIO. ¿Qué es una reliquia?",
